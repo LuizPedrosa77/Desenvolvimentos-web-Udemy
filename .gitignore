@@ -1,0 +1,56 @@
+### Windows ###
+# Arquivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### Java ###
+# Compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs e relatórios
+*.log
+
+# Diretórios de build
+target/
+build/
+out/
+bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+# Plugin-specific files
+.idea_modules/
+
+### Visual Studio Code ###
+.vscode/
+.history/
+*.code-workspace
+
+### PHP ###
+# Dependências do Composer
+/vendor/
+
+# Logs e cache
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+
+# Configurações locais
+.env
+.phpunit.result.cache
+
+# Diretórios comuns
+node_modules/
+.cache/
+coverage/
