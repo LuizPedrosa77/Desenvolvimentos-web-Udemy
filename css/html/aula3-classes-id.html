@@ -8,17 +8,59 @@
 
     <style>
         h1 {
-            color: blue;
+            color: green;
         }
 
         p {
             color: red;
+        }
+
+        .azul {
+            color: blue;
+        }
+
+        /*Os IDs só são usados uma única vez*/
+        #cabecalho {
+            background: green;
         }
     </style>
 
 </head>
 
 <body>
+
+    <!--
+    A principal diferença entre Classes e IDs é que ID só pode ser usado uma vez
+    enquanto classe pode ser mais de uma
+    -->
+
+
+    <div>
+
+        <div id="cabecalho">
+            <img src="qualquer/imagem.png">
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+        <div>
+
+            <div class="coluna">
+                Coluna 1
+            </div>
+            <div class="coluna">
+                Coluna 2
+            </div>
+            <div class="coluna">
+                Coluna 3
+            </div>
+
+        </div>
+
+    </div>
+
 
     <h1>Estilo CSS (cascading style sheets)</h1>
     <p>
@@ -27,7 +69,19 @@
         standard dummy text ever since the 1500s.
     </p>
 
+    <p class="azul">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s.
+    </p>
+
     <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s.
+    </p>
+
+    <p class="azul">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s.

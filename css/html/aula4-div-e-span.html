@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div e Span</title>
+
+    <style>
+        #topo {
+            background: blue;
+        }
+
+        #conteudo {
+            background: red;
+        }
+
+        #rodape {
+            background: green;
+        }
+
+        #assinatura {
+            background: pink;
+        }
+
+        .produto {
+            background: gray;
+            margin: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="topo">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png"
+            width="200">
+
+        <ul>
+            <li>Hom</li>
+            <li>Produtos</li>
+            <li>Contatos</li>
+        </ul>
+
+    </div>
+
+    <div id="conteudo">
+
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+
+    </div>
+
+    <div id="rodape">
+        <!--É recomendado que para formatação especificas de textos utilizar o <span> -->
+        &copy; Todos os <span>direitos</span> reservados!
+    </div>
+
+    <!--
+    <span id="assinatura">
+        Luiz
+    </span>
+    -->
+
+</body>
+
+</html>
