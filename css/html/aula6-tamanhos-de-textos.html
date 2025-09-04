@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Link falando sobre CSS: https://www.w3schools.com/css/default.asp -->
+
+    <style>
+        /*
+            PRINCIPAIS UNIDADES DE TAMANHOS
+            px  → tamanho fixo em pixels.
+            %   → relativo ao elemento pai.
+            em  → relativo ao tamanho da fonte do elemento pai.
+            rem → relativo ao tamanho da fonte da raiz (html).
+            vh  → relativo à altura da viewport (1vh = 1% da altura da tela).
+            vw  → relativo à largura da viewport (1vw = 1% da largura da tela).
+            */
+
+        /*
+        body {
+            font-size: 60px;
+        }
+            */
+
+        div {
+            font-size: 60px;
+        }
+
+        .texto {
+            /*
+            Na ausencia da <DIV> o container pai é o <BODY>, mas quando há <DIV> a DIV é o container pai
+            */
+
+            /*font-size: 30px;*/
+            /* 1 "em" equivale ao 1 vezes o tamanho do container PAI */
+            font-size: 2em;
+        }
+
+        .texto2 {
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<!--Na ausencia de uma DIV, o BODY é um container PAI-->
+
+<body>
+
+    <!--Quando há DIV, ela passa a ser o container PAI no lugar do BODY-->
+    <div>
+
+        <p class="texto">Conteúdo 1</p>
+        <p class="texto2">Conteúdo 2</p>
+
+    </div>
+
+</body>
+
+</html>
