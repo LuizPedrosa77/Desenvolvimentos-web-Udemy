@@ -1,0 +1,62 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* tira a margem padrão do body */
+}
+
+/* PRINCIPAL */
+#principal {
+    max-width: 900px;
+    /* limite para o conteúdo */
+    margin: 0 auto;
+    /* centraliza o conteúdo */
+}
+
+/* CONTAINER DAS IMAGENS (logo + banner) */
+#container {
+    text-align: center;
+}
+
+/* MENU */
+#menu {
+    width: 100%;
+    /* ocupa toda a largura da tela */
+    background-color: #1d13a0;
+    padding: 20px 0;
+    display: flex;
+    /* coloca os links lado a lado */
+    justify-content: center;
+    /* centraliza os links no meio */
+    gap: 40px;
+    /* espaço entre os links */
+}
+
+#menu a {
+    color: #f8f8f6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#menu a:hover {
+    color: yellow;
+    /* cor ao passar o mouse */
+}
+
+.img-banner {
+    width: 927px;
+}
+
+.centralizar {
+    width: 900px;
+    border: 5px solid #1d13a0;
+}
+
+/* RODAPÉ */
+.img-rodape {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
